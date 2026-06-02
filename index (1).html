@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="VOLT — премиальный магазин компьютеров, ноутбуков и комплектующих. Сборка ПК под заказ, гарантия, доставка по всей стране." />
+<meta name="theme-color" content="#0a0a0f" />
+<title>VOLT — Премиальные компьютеры и сборка ПК под заказ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="preloader" id="preloader">
+  <div class="loader-mark">
+    <span>V</span><span>O</span><span>L</span><span>T</span>
+  </div>
+  <div class="loader-bar"><div class="loader-bar__fill"></div></div>
+</div>
+
+<div class="bg-orbs" aria-hidden="true">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+</div>
+
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="#home" class="brand">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
+      <span>VOLT</span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#catalog">Каталог</a>
+      <a href="#build">Сборка ПК</a>
+      <a href="#about">О нас</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#pricing">Тарифы</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="btn btn--sm">Заказать</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero__grid">
+    <div class="hero__copy reveal">
+      <span class="eyebrow"><i></i> Новая коллекция · 2026</span>
+      <h1>Компьютеры, которые <span class="grad">опережают время</span>.</h1>
+      <p class="lead">Премиальные игровые ПК, рабочие станции и ноутбуки. Индивидуальная сборка, тест 48 часов, гарантия до 3 лет и доставка по всей стране.</p>
+      <div class="hero__cta">
+        <a href="#catalog" class="btn btn--primary">Смотреть каталог</a>
+        <a href="#build" class="btn btn--ghost">Собрать ПК →</a>
+      </div>
+      <div class="hero__stats">
+        <div><b data-count="12500">0</b><span>сборок выполнено</span></div>
+        <div><b data-count="98">0</b><span>% довольных клиентов</span></div>
+        <div><b data-count="36">0</b><span>мес. гарантия</span></div>
+      </div>
+    </div>
+    <div class="hero__visual reveal">
+      <div class="card3d">
+        <div class="card3d__glow"></div>
+        <div class="card3d__body">
+          <div class="chip">RTX 5090 · i9-14900K</div>
+          <h3>VOLT Titan X</h3>
+          <p>Флагманский игровой ПК. 4K 240 Гц, бесшумная сборка, RGB-подсветка.</p>
+          <div class="card3d__price"><span>от</span><b>349 900 ₽</b></div>
+          <a href="#contact" class="btn btn--primary btn--full">Заказать сборку</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section" id="features">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Преимущества</span>
+      <h2>Почему выбирают <span class="grad">VOLT</span></h2>
+      <p>Мы не просто продаём компьютеры — мы создаём системы, на которых строится ваша работа и игры.</p>
+    </div>
+    <div class="features">
+      <article class="feature reveal">
+        <div class="feature__ico">⚡</div>
+        <h3>Молниеносная сборка</h3>
+        <p>Готовый ПК за 24 часа со склада. Под заказ — от 3 рабочих дней.</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__ico">🛡</div>
+        <h3>Гарантия до 3 лет</h3>
+        <p>Расширенная гарантия на всю систему и бесплатная диагностика.</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__ico">🧪</div>
+        <h3>Тест 48 часов</h3>
+        <p>Стресс-тесты CPU/GPU и термотесты перед отгрузкой каждой сборки.</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__ico">🚚</div>
+        <h3>Доставка по РФ</h3>
+        <p>Бережная упаковка, страховка груза и доставка за 1–3 дня.</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__ico">💳</div>
+        <h3>Рассрочка 0%</h3>
+        <p>До 24 месяцев без переплат и скрытых комиссий.</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__ico">🎧</div>
+        <h3>Поддержка 24/7</h3>
+        <p>Личный менеджер и техническая помощь в любое время.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CATALOG -->
+<section class="section section--alt" id="catalog">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Каталог</span>
+      <h2>Готовые <span class="grad">конфигурации</span></h2>
+      <p>Подобраны инженерами VOLT под реальные задачи — от учёбы до 4K-стриминга.</p>
+    </div>
+    <div class="filters reveal" id="filters">
+      <button class="chip-btn is-active" data-filter="all">Все</button>
+      <button class="chip-btn" data-filter="game">Игровые</button>
+      <button class="chip-btn" data-filter="work">Рабочие</button>
+      <button class="chip-btn" data-filter="laptop">Ноутбуки</button>
+      <button class="chip-btn" data-filter="office">Офисные</button>
+    </div>
+    <div class="catalog">
+      <article class="prod reveal" data-cat="game">
+        <div class="prod__img" style="--g:linear-gradient(135deg,#7c3aed,#22d3ee)"><span>RTX 5080</span></div>
+        <h3>VOLT Strike Pro</h3>
+        <p>i7-14700KF · 32GB DDR5 · 2TB NVMe</p>
+        <div class="prod__foot"><b>189 900 ₽</b><a href="#contact" class="link">Купить →</a></div>
+      </article>
+      <article class="prod reveal" data-cat="game">
+        <div class="prod__img" style="--g:linear-gradient(135deg,#ef4444,#f97316)"><span>RTX 5090</span></div>
+        <h3>VOLT Titan X</h3>
+        <p>i9-14900K · 64GB DDR5 · 4TB NVMe</p>
+        <div class="prod__foot"><b>349 900 ₽</b><a href="#contact" class="link">Купить →</a></div>
+      </article>
+      <article class="prod reveal" data-cat="work">
+        <div class="prod__img" style="--g:linear-gradient(135deg,#0ea5e9,#6366f1)"><span>Workstation</span></div>
+        <h3>VOLT Studio M</h3>
+        <p>Ryzen 9 · 128GB · RTX A5000</p>
+        <div class="prod__foot"><b>489 000 ₽</b><a href="#contact" class="link">Купить →</a></div>
+      </article>
+      <article class="prod reveal" data-cat="laptop">
+        <div class="prod__img" style="--g:linear-gradient(135deg,#10b981,#06b6d4)"><span>Laptop · 16"</span></div>
+        <h3>VOLT Air 16</h3>
+        <p>Ultra 9 · 32GB · RTX 4070 · 165Hz</p>
+        <div class="prod__foot"><b>219 000 ₽</b><a href="#contact" class="link">Купить →</a></div>
+      </article>
+      <article class="prod reveal" data-cat="laptop">
+        <div class="prod__img" style="--g:linear-gradient(135deg,#f43f5e,#a855f7)"><span>Laptop · 14"</span></div>
+        <h3>VOLT Slim 14</h3>
+        <p>Ultra 7 · 16GB · Iris Xe · OLED</p>
+        <div class="prod__foot"><b>129 000 ₽</b><a href="#contact" class="link">Купить →</a></div>
+      </article>
+      <article class="prod reveal" data-cat="office">
+        <div class="prod__img" style="--g:linear-gradient(135deg,#64748b,#0f172a)"><span>Office</span></div>
+        <h3>VOLT Base</h3>
+        <p>i5-14400 · 16GB · 512GB NVMe</p>
+        <div class="prod__foot"><b>59 900 ₽</b><a href="#contact" class="link">Купить →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- BUILD / ABOUT -->
+<section class="section" id="build">
+  <div class="container two-col">
+    <div class="reveal">
+      <span class="eyebrow">Сборка под заказ</span>
+      <h2>Соберём ПК под <span class="grad">вашу задачу</span></h2>
+      <p class="lead">Расскажите о бюджете и задачах — мы подберём оптимальные комплектующие, протестируем и доставим готовую систему.</p>
+      <ul class="check">
+        <li>Только оригинальные компоненты от официальных дистрибьюторов</li>
+        <li>Кабель-менеджмент и продуманное охлаждение</li>
+        <li>BIOS-настройка, разгон и оптимизация ОС</li>
+        <li>Бесплатная апгрейд-консультация на 1 год</li>
+      </ul>
+      <a href="#contact" class="btn btn--primary">Получить расчёт</a>
+    </div>
+    <div class="reveal">
+      <div class="metric-grid">
+        <div class="metric"><b data-count="15">0</b><span>лет на рынке</span></div>
+        <div class="metric"><b data-count="320">0</b><span>моделей в наличии</span></div>
+        <div class="metric"><b data-count="48">0</b><span>часов стресс-теста</span></div>
+        <div class="metric"><b data-count="24">0</b><span>часа на сборку</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section section--alt" id="reviews">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Отзывы</span>
+      <h2>Что говорят <span class="grad">клиенты</span></h2>
+    </div>
+    <div class="slider reveal" id="slider">
+      <div class="slider__track" id="sliderTrack">
+        <div class="slide">
+          <p>«Собрали игровой ПК мечты за 3 дня. Работает идеально, температура ниже, чем обещали. Сервис на уровне Apple Store.»</p>
+          <div class="author"><div class="ava">А</div><div><b>Алексей М.</b><span>Игровой блогер</span></div></div>
+        </div>
+        <div class="slide">
+          <p>«Купили 12 рабочих станций для студии. Все машины пришли откалиброванные, с установленным ПО. Огромная экономия времени.»</p>
+          <div class="author"><div class="ava">Е</div><div><b>Елена К.</b><span>Арт-директор Studio One</span></div></div>
+        </div>
+        <div class="slide">
+          <p>«Ноутбук VOLT Air 16 — лучшее, что я держал в руках за 10 лет. Премиальный материал, тишина, автономность.»</p>
+          <div class="author"><div class="ava">Д</div><div><b>Дмитрий П.</b><span>CTO Stack.io</span></div></div>
+        </div>
+      </div>
+      <div class="slider__nav">
+        <button id="prevSlide" aria-label="Назад">‹</button>
+        <div class="dots" id="dots"></div>
+        <button id="nextSlide" aria-label="Вперёд">›</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Тарифы сборки</span>
+      <h2>Прозрачные <span class="grad">цены</span></h2>
+      <p>Выберите уровень сервиса. Стоимость комплектующих оплачивается отдельно.</p>
+    </div>
+    <div class="pricing">
+      <article class="plan reveal">
+        <h3>Start</h3>
+        <div class="plan__price"><b>4 900 ₽</b><span>/сборка</span></div>
+        <ul>
+          <li>Сборка ПК</li>
+          <li>Базовое тестирование</li>
+          <li>Установка Windows</li>
+          <li>Гарантия 12 мес.</li>
+        </ul>
+        <a href="#contact" class="btn btn--ghost btn--full">Выбрать</a>
+      </article>
+      <article class="plan plan--pop reveal">
+        <span class="badge">Популярный</span>
+        <h3>Pro</h3>
+        <div class="plan__price"><b>9 900 ₽</b><span>/сборка</span></div>
+        <ul>
+          <li>Всё из Start</li>
+          <li>Кабель-менеджмент Premium</li>
+          <li>Стресс-тест 48 часов</li>
+          <li>Настройка BIOS + разгон</li>
+          <li>Гарантия 24 мес.</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary btn--full">Выбрать</a>
+      </article>
+      <article class="plan reveal">
+        <h3>Studio</h3>
+        <div class="plan__price"><b>19 900 ₽</b><span>/сборка</span></div>
+        <ul>
+          <li>Всё из Pro</li>
+          <li>Кастомное СЖО</li>
+          <li>Шумоизоляция корпуса</li>
+          <li>Гарантия 36 мес.</li>
+          <li>Личный инженер</li>
+        </ul>
+        <a href="#contact" class="btn btn--ghost btn--full">Выбрать</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section--alt" id="faq">
+  <div class="container faq-wrap">
+    <div class="section__head reveal">
+      <span class="eyebrow">FAQ</span>
+      <h2>Частые <span class="grad">вопросы</span></h2>
+    </div>
+    <div class="faq" id="faq">
+      <details class="reveal"><summary>Какая гарантия на ПК?</summary><p>На системные блоки — до 36 месяцев, на отдельные компоненты — гарантия производителя. Бесплатная диагностика на весь срок.</p></details>
+      <details class="reveal"><summary>Есть ли рассрочка?</summary><p>Да, оформляем рассрочку 0% до 24 месяцев через банки-партнёры. Решение за 2 минуты.</p></details>
+      <details class="reveal"><summary>Доставляете ли в регионы?</summary><p>Да, доставляем по всей России и СНГ. ПК упаковываем в двойной короб с пенопластом и страхуем груз.</p></details>
+      <details class="reveal"><summary>Можно ли поменять комплектующие позже?</summary><p>Конечно. В течение первого года апгрейд и консультация — бесплатно.</p></details>
+      <details class="reveal"><summary>Как протестирован ПК?</summary><p>Стресс-тесты CPU (Prime95, AIDA64), GPU (FurMark, 3DMark), памяти (MemTest) и термоконтроль 48 часов.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container two-col">
+    <div class="reveal">
+      <span class="eyebrow">Свяжитесь с нами</span>
+      <h2>Получите <span class="grad">расчёт</span> за 15 минут</h2>
+      <p class="lead">Оставьте заявку — менеджер свяжется, уточнит задачи и пришлёт 2–3 варианта сборки с ценой.</p>
+      <ul class="check">
+        <li>📞 +7 (495) 000-00-00</li>
+        <li>✉ hello@volt-pc.ru</li>
+        <li>📍 Москва, ул. Тверская, 12</li>
+        <li>🕐 Пн–Вс · 10:00–22:00</li>
+      </ul>
+    </div>
+    <form class="form reveal" id="form" novalidate>
+      <div class="field">
+        <label>Имя</label>
+        <input type="text" name="name" required minlength="2" placeholder="Как к вам обращаться?" />
+        <span class="err"></span>
+      </div>
+      <div class="field">
+        <label>Телефон</label>
+        <input type="tel" name="phone" required placeholder="+7 (___) ___-__-__" />
+        <span class="err"></span>
+      </div>
+      <div class="field">
+        <label>Email</label>
+        <input type="email" name="email" required placeholder="you@email.com" />
+        <span class="err"></span>
+      </div>
+      <div class="field">
+        <label>Задача / бюджет</label>
+        <textarea name="msg" rows="4" placeholder="Например: игровой ПК для 4K, бюджет до 300 000 ₽"></textarea>
+      </div>
+      <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+      <p class="form__note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <a href="#home" class="brand"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg><span>VOLT</span></a>
+      <p>Премиальные компьютеры и сборка ПК под заказ с 2010 года.</p>
+    </div>
+    <div>
+      <h4>Магазин</h4>
+      <a href="#catalog">Игровые ПК</a>
+      <a href="#catalog">Ноутбуки</a>
+      <a href="#catalog">Рабочие станции</a>
+      <a href="#build">Сборка под заказ</a>
+    </div>
+    <div>
+      <h4>Компания</h4>
+      <a href="#about">О нас</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Контакты</a>
+    </div>
+    <div>
+      <h4>Соцсети</h4>
+      <div class="socials">
+        <a href="#" aria-label="Telegram">TG</a>
+        <a href="#" aria-label="VK">VK</a>
+        <a href="#" aria-label="YouTube">YT</a>
+        <a href="#" aria-label="Instagram">IG</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© 2026 VOLT. Все права защищены.</span>
+    <span>Сделано с ⚡ для тех, кто ценит производительность.</span>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Наверх">↑</button>
+
+<script src="script.js" defer></script>
+</body>
+</html>
